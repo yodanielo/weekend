@@ -1,0 +1,708 @@
+body, img, a{
+    border:none;
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+}
+#pubcontenedortop{
+    float:left;
+    width:100%;
+    height:100px;
+    background:#1A171B;
+}
+#espaciotop,
+#puntop{
+    position:relative;
+    margin:0px auto;
+    width:990px;
+    height:90px;
+    margin-top:10px;
+}
+#espaciotop{
+    text-align:center;
+    line-height:90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #fff;
+}
+#espaciotop #txtespaciolibre{
+    float:left;
+    width:960px;
+    height:90px;
+    background:url(../images/bg-publicidad-top.png);
+}
+.pagina{
+    width:990px;
+    margin:0px auto;
+}
+#btnpublicidad{
+    float:right;
+    width:20px;
+    height:90px;
+    background: url(../images/b_publicidad.jpg) no-repeat;
+}
+#bodycontenedor{
+    float:left;
+    width:100%;
+    background:url(../images/bg_body.png) repeat-x;
+}
+#logo{
+    float:left;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+#barratitulo{
+    float:left;
+    width:100%;
+    background:url(../images/bgs-publicidad-top.png) top center no-repeat;
+}
+#clima{
+    float:right;
+    width:172px;
+    height:56px;
+    margin-top:18px;
+    margin-right: 10px;
+    overflow:hidden;
+}
+#climacont{
+    left: -90px;
+    position: relative;
+}
+#fecha{
+    color: black;
+    float: right;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-left: 20px;
+    text-align: left;
+    text-decoration: none;
+    width: 230px;
+    background:url(../images/ico_rss.png) no-repeat left center;
+}
+#fecha span{
+    color:#7D7D7D!important;
+}
+#barrasecciones1{
+    float:left;
+    width:100%;
+    height:40px;
+    /*background: #ccc;*/
+}
+#barrasecciones2 *,
+#barrasecciones1 *{
+    position:relative;
+    padding: 0px 35px 0px 10px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #1a171b;
+    text-decoration: none;
+    height:40px;
+    line-height: 40px;
+}
+#barrasecciones2 *{
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 45px;
+    padding: 0px 2px;
+}
+#barrasecciones2 strong{
+    padding:0px;
+}
+#barrasecciones2 a.sec_selected,
+#barrasecciones1 a.sec_selected,
+#barrasecciones2 a:hover,
+#barrasecciones1 a:hover{
+    color:#006991;
+}
+#barrasecciones2{
+    float:left;
+    width:100%;
+    height:45px;
+}
+#modulescroll{
+    float:left;
+    width:990px;
+}
+#tituloscroll{
+    float:left;
+    width:980px;
+    height:22px;
+    line-height:22px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #6A676B;
+    padding-left: 10px;
+    background:#F0F0F0;
+    margin-bottom: 5px;
+    margin-top:10px;
+}
+#pagerscroll{
+    float:right
+}
+#visorscroll{
+    float:left;
+    width:990px;
+    height:192px;
+    overflow:hidden;
+    position:relative;
+    z-index:90;
+}
+.gruposcroll{
+    float:left;
+    width:990px;
+    height:192px;
+    z-index:80;
+    position:relative;
+}
+.itemscroll{
+    border: 1px solid #E0DFE0;
+    float: left;
+    height: 182px;
+    margin-right: 12px;
+    padding: 4px;
+    width: 145px;
+}
+.pagscroll{
+    float:left;
+    background: url(../images/scroll-buttons.png) no-repeat 0px 0px;
+    width:11px;
+    height:20px;
+    overflow: hidden;
+    text-indent: 40px;
+    margin-right: 2px;
+}
+.pagscroll:hover,
+.pagscroll.activeSlide{
+    background: url(../images/scroll-buttons.png) no-repeat -11px 0px;
+}
+#scrollleft{
+    float:left;
+    background: url(../images/scroll-buttons.png) no-repeat -66px 0px;
+    text-indent: 60px;
+    width:22px;
+    height:17px;
+    cursor:pointer;
+}
+#scrollright{
+    float:left;
+    background: url(../images/scroll-buttons.png) no-repeat -44px 0px;
+    text-indent: 60px;
+    width:22px;
+    cursor:pointer;
+    height:17px;
+}
+#navscroll{
+    float:right;
+    margin-right:10px;
+    margin-left: 20px;
+}
+#ultimasnoticias{
+    float:left;
+    width:990px;
+    margin-top:30px;
+}
+#ultimaderecha{
+    float:right;
+    width:465px;
+    /*height:680px;*/
+    border-left:9px solid #006991;
+}
+#ultderechatxt{
+    float:left;
+    width:465px;
+    width:432px;
+    padding-left:18px;
+    padding-top: 15px;
+    text-align: justify;
+}
+#ultderimagen img{
+    float:left;
+    /*width:465px;
+    height:600px;*/
+}
+#ultdertitulo{
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #006991;
+    font-weight: bold;
+}
+#ultderresumen{
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1A171B;
+}
+.itemun{
+    float:left;
+    width:310px;
+    height: 210px;
+    background:#f8f8f8 url(../images/top_destacado.gif) no-repeat;
+    margin: 0px 30px 30px 0px;
+    padding-top:5px;
+}
+.ultimasizquierda{
+    float:left;
+    width:476px;
+}
+.iun_imagen{
+    float:left;
+    width:155px;
+    height:91px;
+    overflow: hidden;
+    margin:0px 10px 0px 0px;
+    background:#EDEDED;
+}
+.iun_col2{
+    clear: both;
+    float: left;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    padding: 0px 10px 10px 10px;
+    width: 290px;
+}
+.iun_resumen{
+    color: #565357;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+}
+.iun_titulo1{
+    color: #1A171B;
+    float: left;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 139px;
+}
+.iun_titulo1 table{
+    width:139px;
+    height:91px;
+    float:left;
+}
+.iun_titulo2{
+    color: #006991;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+#footer{
+    float:left;
+    width:100%;
+    background:url(../images/bg-footer-5x439.png) repeat-x;
+    padding-top:58px;
+    padding-bottom: 37px;
+}
+#siguenos{
+    float:left;
+    width:990px;
+    height:50px;
+    line-height: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+}
+#siguenos strong{
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+#siguenos img{
+    position:relative;
+    top:11px;
+    padding-left:6px;
+    display: inline-block;
+}
+#correo{
+    float:right;
+    width:273px;
+    height:50px;
+    line-height: 50px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1A171B;
+    text-align: right;
+    margin-right: 10px;
+    text-decoration: none;
+}
+#foocol1{
+    float:left;
+    width:170px;
+    margin-left:10px;
+}
+#foocol2{
+    float:left;
+    width:170px;
+}
+#foocol3{
+    float:left;
+    width:125px;
+}
+#foocol4{
+    float:right;
+    width: 256px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #29262A;
+}
+#foocol1 a:hover,
+#foocol2 a:hover,
+#foocol3 a:hover{
+    color: #006991;
+}
+#foocol1 a,
+#foocol2 a,
+#foocol3 a{
+    float:left;
+    width:100%;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #29262A;
+    text-decoration: none;
+    line-height: 16px;
+}
+foocol4 a{
+    color:#006991;
+}
+#logofooter{
+    float:left;
+    margin-bottom:15px;
+}
+#buscador,
+#buscador *{
+    padding: 0px;
+    margin:0px;
+}
+#buscador{
+    float:right;
+    width:253px;
+    margin-top: 6px;
+}
+#query{
+    float:right;
+    width:181px;
+    height:25px;
+    border:1px solid #B6B5B6;
+    background:url(../images/bg-input-buscar.png) repeat-x;
+    padding: 0px;
+    margin:0px;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+}
+#submitquery{
+    float:right;
+    width:63px;
+    height:27px;
+    padding: 0px;
+    margin:0px;
+    margin-left:3px;
+    border:none;
+    background:url(../images/buscar-btn.png) no-repeat;
+}
+#weecol1{
+    float:left;
+    width: 700px;
+}
+#weecol2{
+    float:right;
+    width: 250px;
+}
+#weecol2 .title{
+    float:left;
+    width: 250px;
+    height: 22px;
+}
+#weecol1 .title{
+    float:left;
+    width: 690px;
+    height: 22px;
+    padding-left:10px;
+}
+.title{
+    background:#F0F0F0;
+}
+.title,
+.title *{
+    line-height: 22px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #7E7B7F;
+}
+#breadcrumb label,
+.bc_actual{
+    color:#1A171B;
+}
+#togglearticulos.active span{
+    color:#7E7B7F!important;
+}
+#togglearticulos.active{
+    background:none;
+}
+#togglearticulos{
+    float:right;
+    width:326px;
+    height:22px;
+    cursor:pointer;
+    text-align: right;
+    margin-right: 5px;
+    padding-right: 16px;
+    background:url(../images/icod11.jpg) no-repeat center right;
+}
+#togglearticulos #icoi{
+    padding-right: 5px;
+}
+#togglearticulos span{
+    color:#03648f;
+}
+#notlistado2,
+#notlistado1{
+    float:left;
+    width:700px;
+    padding: 18px 0px;
+}
+#notlistado1{
+    /*background:url(../images/separador-listado-desplegado.jpg) no-repeat bottom left;*/
+    display:none;
+    padding-bottom: 0px;
+}
+#separadorlistado{
+    cursor:pointer;
+    margin-top:18px;
+}
+#notlistado2 a:hover .middot,
+#notlistado2 a.active .middot,
+#notlistado1 a:hover .middot,
+#notlistado1 a.active .middot{
+    background:url(../images/vineta1.png) no-repeat center;
+}
+#notlistado2 a:hover,
+#notlistado2 a.active,
+#notlistado1 a:hover,
+#notlistado1 a.active{
+    color:#006991;
+}
+#notlistado2 a .middot,
+#notlistado1 a .middot{
+    float:left;
+    background:url(../images/vineta0.png) no-repeat center;
+    height: 20px;
+    width: 10px;
+    position:absolute;
+    margin-left:-10px;
+}
+#notlistado2 a,
+#notlistado1 a{
+    float:left;
+    width:700px;
+    /*height:20px;*/
+    line-height:20px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1A171B;
+    text-indent:10px;
+}
+.entrada{
+    float:left;
+    margin-top:20px;
+    width:700px;
+}
+.entrada .mytitle{
+    float:left;
+    width:700px;
+    height:26px;
+    line-height: 26px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #1A171B;
+    font-weight: bold;
+}
+.entrada .subtitle{
+    color: #006991;
+    float: left;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 700px;
+}
+.cuerpoentrada,
+.cuerpoentrada *{
+    text-align: justify!important;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif!important;
+    font-size: 16px!important;
+    color:#000!important;
+    font-weight: normal!important;
+    font-style: normal!important;
+    font-variant: normal!important;
+    background: none!important;
+}
+.cuerpoentrada{
+    float:left;
+    width: 700px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+#masactualidad *,
+#masactualidad{
+    color:#006991!important;
+}
+#titpublicidad{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.item_banner{
+    float:left;
+    width:240px;
+    /*height:306px;*/
+    padding:5px;
+    border:1px solid #DFDEDF;
+    margin-bottom: 9px;
+}
+#despimg{
+    float: left;
+    width:960px;
+    text-align: center;
+    background: #f0f0f0;
+}
+#despimg img{
+    max-width: 960px;
+    cursor:pointer;
+} 
+#desptop{
+    margin-top: -90px;
+    position: relative;
+    z-index: 100;
+    display:none;
+    float:left;
+}
+#desbbar{
+    float: left;
+    height: 30px;
+    margin-top: -30px;
+    width: 960px;
+    background:url(../images/bg-publicidad-top.png);
+
+    text-indent: 10px;
+    line-height: 30px;
+}
+#desbbar,
+#desbbar *{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #fff;
+}
+#desbbar a{
+    color:#F0F0F0;
+}
+#nohay{
+    float:left;
+    width:700px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#cerrarpubtxt{
+    float: right;
+    padding-right: 10px;
+    text-align: right;
+    width: 150px;
+    cursor:pointer;
+}
+#cerrarpubtxt img{
+    position:relative;
+    top:2px;
+}
+#topdescripcion{
+    float:left;
+    position:absolute;
+    width:96px;
+    height:82px;
+    background:url(../images/bgt-publicidad-top.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color:#fff;
+    text-align: left;
+    padding-top:8px;
+    padding-left: 24px;
+    line-height:13px;
+}
+.banbtn{
+    float: left;
+    height: 90px;
+    overflow: hidden;
+    text-align: center;
+    width: 960px;
+    background: #F0F0F0;
+}
+.izqnohay,
+.dernohay{
+    line-height:600px;
+    height:600px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align:center;
+}
+#mailtofooter{
+    color: #006991;
+}
+.imgminislider{
+    background: #fff !important;
+    border: none !important;
+    float: left;
+    height: 75px !important;
+    margin-right: 5px;
+    overflow: hidden;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+    width: 131px;
+}
+.tbldes_slider{
+    float:left;
+    width:210px;
+    height: 80px;
+}
+.minied{
+    float:left;
+    width:222px;
+    margin-right:15px;
+    margin-top:20px;
+}
+.minitext{
+    float:left;
+    width:222px;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+    text-align:center;
+    margin-top:7px;
+}
+.minitext span{
+    color:#7E7B7F;
+    text-decoration: none;
+}
+.minipreview{
+    float:left;
+    width:220px;
+    border:1px solid #E0DFE0;
+}
+#flashlibro{
+    float:left;
+}
+#flashexplain{
+    clear:both;
+    background:#006991;
+    font-family: MyriadProRegular, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    padding:10px;
+}
+#san-valentin{
+    position: absolute;
+    left:50%;
+    top:75px;
+    margin-left: -160px;
+    display:none;
+}
